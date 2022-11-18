@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="@dimen/margin_bottom">
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/colonne_text_size"
+            android:text="@string/idText"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/nom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nomText"
+            android:textAlignment="textStart"
+            android:textSize="@dimen/colonne_text_size" />
+
+        <TextView
+            android:id="@+id/prenom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/prenomText"
+            android:textAlignment="textStart"
+            android:textSize="@dimen/colonne_text_size" />
+
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ageText"
+            android:textAlignment="textEnd"
+            android:textSize="@dimen/colonne_text_size" />
+    </LinearLayout>
+</LinearLayout>

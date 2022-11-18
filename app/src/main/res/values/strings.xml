@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Gestion de Personnes</string>
+    <string name="title_main">Bienvenue, choisissez une action</string>
+    <string name="title_create">Ajouter une personne</string>
+    <string name="btn_create">Ajouter une personne</string>
+    <string name="btn_update">Modifier une personne</string>
+    <string name="btn_research">Rechercher une personne</string>
+    <string name="btn_delete">Supprimer une personne</string>
+    <string name="btn_read">Liste des personnes</string>
+    <string name="nomText">Nom de la personne</string>
+    <string name="prenomText">Prenom de la personne</string>
+    <string name="ageText">Age de la personne</string>
+    <string name="btnAjouter">Ajouter</string>
+    <string name="modifText">Modifier</string>
+    <string name="supprimText">Supprimer</string>
+    <string name="idText">id</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prenom</string>
+    <string name="age">Age</string>
+    <string name="title_list">LISTE DES PERSONNES</string>
+    <string name="id">ID</string>
+    <string name="searchText">mots cles...</string>
+    <string name="btnSearch_text">Rechercher</string>
+    <string name="btn_search">Rechercher une personne</string>
+    <string name="Home">Accueil</string>
+</resources>
